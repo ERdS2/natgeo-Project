@@ -1,0 +1,13 @@
+@use 'parts' as p;
+@use 'settings' as s;
+
+ @include s.basic-css-settings;
+
+    //header külön fájl
+   @include p.header;
+   //
+    @include p.indexViki;
+    @include p.gallery-section;
+    @include p.Mesike74;
+    //footer külön fájl
+   @include p.footer;
